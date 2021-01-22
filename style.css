@@ -14,6 +14,39 @@ p{
 .text-highlight{
     color: orangered;
 }
+nav{
+    height: 60px;
+    width: 100%;
+  }
+  nav ul{
+    float: right;
+    margin-right: 20px;
+  }
+  nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+  }
+  nav ul li a{
+    color: black;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+  }
+  a.active,a:hover{
+    background: #06d633;
+    transition: .5s;
+  }
+  .checkbtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+  }
 .half-width{
     text-align: left;
     width: 40%;
@@ -23,7 +56,7 @@ p{
     
 }
 .half-width img{
-    width: 90%;
+    width: 60%;
 }
 .top-banner{
     background-image: url(images/header-bg.png);
@@ -52,21 +85,41 @@ section{
 }
 .bottom-image img{
     width: 30%;
-    float: left;
+    position: left;
     padding-left: 2%;
 }
-.bottom{
-    text-align: center;
-}
-.bottom-div{
-    font-family: Arial, Helvetica, sans-serif;
-    border: 2px solid pink;
-    
-    margin: 20px 400px 20px 400px;
-    background-color: rgba(176, 16, 69, 0.856);
+h4{
     color: white;
-    border-radius: 15px;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 29px;
 }
+
+.work{
+    float: left;
+    background-image: url("shapes/Group_33094_1.png");
+    background-repeat: no-repeat;
+    width: 700px;
+    height: 50px;
+    margin-top: 30px;
+    margin-bottom: 80px;
+    margin-left: 220px;
+    margin-right: 220px;
+    padding: 60px 60px;
+    border-radius: 5px;
+}
+.stk{
+    float: left;
+    padding-left: 5px;
+    padding-bottom: 10px;
+    width: 40%;
+    width: 40%;
+    padding-top: 20px;
+}
+
+
 footer p{
     text-align: center;
+    text-decoration: none;
 }
